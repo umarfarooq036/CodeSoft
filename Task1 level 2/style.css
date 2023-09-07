@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Fresca&family=Roboto+Slab:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.header-background {
+  background-color: #343a40;
+  color: white;
+  /* max-width: 100%; */
+  width: 100%;
+}
+.header-container {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+}
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 45px 0px;
+  gap: 15px;
+  text-align: center;
+}
+.header > h1 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 67.2px;
+}
+.header > .tagline {
+  font-family: sans-serif;
+  font-size: 20px;
+  color: #d8dee4;
+}
+.header > .below-tagline {
+  font-style: italic;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #d8dee4;
+}
+.header > a {
+  text-decoration: none !important ;
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: #f8f9fa;
+  padding: 10px 15px;
+  color: black;
+  margin-top: 20px;
+  font-size: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.heroSection {
+  width: auto;
+  display: flex;
+  /* flex-wrap: wrap; */
+  align-items: center;
+  gap: 10%;
+}
+.heroSection > .dp > img {
+  width: 28em;
+  border: 20px solid white;
+  border-radius: 50%;
+}
+.heroSection > .aboutme {
+  width: 50%;
+  font-family: "Roboto Slab", serif;
+  line-height: 1.8em;
+}
+.aboutme h2 {
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 500px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.aboutme > .tagline {
+  font-family: "Fresca", sans-serif;
+  font-size: 1.7em;
+  color: rgb(33, 37, 41);
+  padding: 20px 0px;
+}
+.aboutme > .below-tagline {
+  font-family: "Roboto Slab", serif;
+  font-family: "Roboto Slab", serif;
+  color: rgb(0, 0, 0);
+}
+
+#skills > h2 {
+  text-align: center;
+  width: auto;
+  max-width: 100%;
+  padding: 3rem 0;
+  font-family: "Roboto Slab", serif;
+  
+  font-size: 30px;
+  letter-spacing: 0.3em;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 800px) {
+  .heroSection {
+    flex-direction: column;
+  }
+  .heroSection > .dp > img {
+    width: 15em;
+  }
+}
